@@ -20,7 +20,7 @@ const IndustrySolutions = () => {
             </div>
           </div>
           <div className='relative min-h-[275px] overflow-hidden cursor-pointer'>
-            <img src='/Insurance-industry.png' className='card-image absolute top-0 left-0 w-full h-full object-cover' />
+            <img src='/insurance-industry.png' className='card-image absolute top-0 left-0 w-full h-full object-cover' />
             <div className='card-content relative top-[13rem] left-[3rem] z-[11]'>
               <p className='text-[1.25rem] md:text-[1.5rem] lg:text-[2.18rem] text-[#ffff] font-[500]'>Insurance</p>
               <a className='text-[1rem] font-[400] hidden'><span>Explore more</span> <MdKeyboardDoubleArrowRight /></a>
@@ -35,7 +35,7 @@ const IndustrySolutions = () => {
           </div>
 
           <div className='relative min-h-[275px] overflow-hidden cursor-pointer'>
-            <img src='/Healthcare-industry.png' className='card-image absolute top-0 left-0 w-full h-full object-cover' />
+            <img src='/healthcare-industry.png' className='card-image absolute top-0 left-0 w-full h-full object-cover' />
             <div className='card-content relative top-[13rem] left-[3rem] z-[11]'>
               <p className='text-[1.25rem] md:text-[1.5rem] lg:text-[2.18rem] text-[#ffff] font-[500]'>Healthcare</p>
               <a className='text-[1rem] font-[400] hidden'><span>Explore more</span> <MdKeyboardDoubleArrowRight /></a>
@@ -43,7 +43,7 @@ const IndustrySolutions = () => {
           </div>
 
           <div className='relative min-h-[275px] overflow-hidden cursor-pointer'>
-            <img src='/Ed-Tech-industry.png' className='card-image absolute top-0 left-0 w-full h-full object-cover' />
+            <img src='/ed-tech-industry.png' className='card-image absolute top-0 left-0 w-full h-full object-cover' />
             <div className='card-content relative top-[13rem] left-[3rem] z-[11]'>
               <p className='text-[1.25rem] md:text-[1.5rem] lg:text-[2.18rem] text-[#ffff] font-[500]'>Ed-Tech</p>
               <a className='text-[1rem] font-[400] hidden'><span>Explore more</span> <MdKeyboardDoubleArrowRight /></a>
@@ -51,7 +51,7 @@ const IndustrySolutions = () => {
           </div>
 
           <div className='relative min-h-[275px] overflow-hidden cursor-pointer'>
-            <img src='/Others-industry.png' className='card-image absolute top-0 left-0 w-full h-full object-cover' />
+            <img src='/others-industry.png' className='card-image absolute top-0 left-0 w-full h-full object-cover' />
             <div className='card-content relative top-[13rem] left-[3rem] z-[11]'>
               <p className='text-[1.25rem] md:text-[1.5rem] lg:text-[2.18rem] text-[#ffff] font-[500]'>Others</p>
               <a className='text-[1rem] font-[400] hidden'><span>Explore more</span> <MdKeyboardDoubleArrowRight /></a>
