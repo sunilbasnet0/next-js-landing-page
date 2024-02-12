@@ -15,25 +15,14 @@ nav ul {
 }
 
 
-@media (min-width:1440px) {
-  .containers {
-    --max-width: 1580px;
-    --padding: 1rem;
-    width: min(var(--max-width), 100% - var(--padding) * 2);
-    margin-inline: auto;
-  }
 
+.containers {
+  --max-width: 1780px;
+  --padding: 1rem;
+  width: min(var(--max-width), 100% - var(--padding) * 2);
+  margin-inline: auto;
 }
 
-@media (max-width:1440px) {
-  .containers {
-    --max-width: 1440px;
-    --padding: 1rem;
-    width: min(var(--max-width), 100% - var(--padding) * 2);
-    margin-inline: auto;
-  }
-
-}
 
 
 /* The CSS code you provided is styling add image grayscale */
