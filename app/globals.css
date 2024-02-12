@@ -14,11 +14,25 @@ nav ul {
   font-family: 'Poppins', sans-serif !important;
 }
 
-.containers {
-  --max-width: 1440px;
-  --padding: 1rem;
-  width: min(var(--max-width), 100% - var(--padding) * 2);
-  margin-inline: auto;
+
+@media (min-width:1440px) {
+  .containers {
+    --max-width: 1580px;
+    --padding: 1rem;
+    width: min(var(--max-width), 100% - var(--padding) * 2);
+    margin-inline: auto;
+  }
+
+}
+
+@media (max-width:1440px) {
+  .containers {
+    --max-width: 1440px;
+    --padding: 1rem;
+    width: min(var(--max-width), 100% - var(--padding) * 2);
+    margin-inline: auto;
+  }
+
 }
 
 
