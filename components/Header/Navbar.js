@@ -1,6 +1,5 @@
 import React from 'react'
 import MenuItems from './MenuItems';
-import MobileNavbar from './MobileNavbar';
 
 const Navbar = () => {
   const depthLevel = 0;

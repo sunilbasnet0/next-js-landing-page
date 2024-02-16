@@ -1,0 +1,337 @@
+.main-container {
+  min-height: 65vh;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  height: 650px;
+  overflow: hidden;
+  margin-block: 2rem;
+}
+
+.main {
+  margin: 0px auto;
+  width: min(600px, 100%);
+  height: 600px;
+  position: relative;
+}
+
+.big-circle {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border: 3px solid #1e1d29;
+  border-radius: 50%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  animation: Rotate 20s linear infinite;
+  -webkit-animation: Rotate 20s linear infinite;
+}
+
+.icon-block {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.icon-block img {
+  margin: 0px auto;
+  width: 86%;
+  animation: Rotate-reverse 20s linear infinite;
+  -webkit-animation: Rotate-reverse 20s linear infinite;
+}
+
+.icon-block:first-child {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.icon-block:nth-child(2) {
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
+}
+
+.icon-block:nth-child(3) {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  -webkit-transform: translate(-50%, 50%);
+}
+
+.icon-block:nth-child(4) {
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+/* circle content */
+.circle {
+  animation: circle-rotate 20s linear infinite;
+  -webkit-animation: circle-rotate 20s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  width: 75%;
+  height: 75%;
+  border: 3px solid #1e1d29;
+  border-radius: 50%;
+}
+
+.circle .icon-block img {
+  animation: img-rotate 20s linear infinite;
+  -webkit-animation: img-rotate 20s linear infinite;
+}
+
+.small-circle {
+  animation: circle-rotate 20s linear infinite;
+  -webkit-animation: circle-rotate 20s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  width: 55%;
+  height: 55%;
+  border: 3px solid #1e1d29;
+  border-radius: 50%;
+}
+
+.small-circle .icon-block img {
+  animation: img-rotate 20s linear infinite;
+  -webkit-animation: img-rotate 20s linear infinite;
+}
+
+
+.logo-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 25%;
+  height: 25%;
+  border: 3px solid #1e1d29;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.center-logo {
+  width: 100%;
+}
+
+.center-logo img {
+  width: 100px;
+  margin: auto;
+}
+
+
+/* keyframe animation */
+
+@keyframes Rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes Rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes Rotate-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes Rotate-reverse {
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+
+  to {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes circle-rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(405deg);
+  }
+}
+
+@-webkit-keyframes circle-rotate {
+  from {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  to {
+    -webkit-transform: translate(-50%, -50%) rotate(405deg);
+  }
+}
+
+@keyframes img-rotate {
+  from {
+    transform: rotate(-45deg);
+  }
+
+  to {
+    transform: rotate(-405deg);
+  }
+}
+
+@-webkit-keyframes img-rotate {
+  from {
+    -webkit-transform: rotate(-45deg);
+  }
+
+  to {
+    -webkit-transform: rotate(-405deg);
+  }
+}
+
+
+@media (max-width:650px) {
+  .main-container {
+    min-height: 70vh;
+    height: 300px;
+    margin-block: 4rem;
+  }
+
+  .main {
+    max-width: 90%;
+    width: 75%;
+    height: 70vw;
+  }
+
+  /* Adjust styles for smaller screens */
+  .icon-block {
+    width: 20%;
+    /* Adjust width for smaller screens */
+    height: 20%;
+    /* Adjust height for smaller screens */
+  }
+}
+
+
+@media (max-width:450px) {
+  .main-container {
+    min-height: 50vh;
+    height: 200px;
+    margin-block: 1rem;
+  }
+
+}
+
+
+/* cta component css styles */
+
+.cta-team-card-1 {
+  z-index: 1;
+  background-image: url(https://assets-global.website-files.com/63f3c83933b2e96042f898cc/6400e5d766991658d8627311_team-bg-1.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: relative;
+  rotate: -10deg;
+}
+
+.cta-team-card {
+  width: 20rem;
+  border: 1px solid #221f41;
+  background-color: #1a1530;
+  border-radius: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 2.5rem 5rem;
+  display: flex;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, .3);
+}
+
+
+.cta-team-card-2 {
+  z-index: 1;
+  background-image: url(https://assets-global.website-files.com/63f3c83933b2e96042f898cc/64010ff1901ff3ff92c30f70_team-bg-2.svg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: auto;
+  rotate: 10deg;
+}
+
+
+.slide-in-bottom {
+  animation: slideInBottom 2s ease forwards;
+}
+
+@keyframes slideInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.bg-gradient {
+  filter: blur(120px);
+}
+
+.bg-gradient>div {
+  animation: blob-turn var(--time, 30s) linear infinite;
+  fill: var(--fill, #7600f8);
+  position: relative;
+  transform-origin: center;
+}
+
+
+@keyframes blob-turn {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
