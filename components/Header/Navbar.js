@@ -5,7 +5,7 @@ const Navbar = () => {
   const depthLevel = 0;
   const navLink = [
     {
-      href: 'services',
+      href: '/services',
       // key: 'services',
       label: 'Services',
       dropdownItems: [
@@ -15,11 +15,11 @@ const Navbar = () => {
         },
         {
           label: 'Web Development',
-          href: 'services/web-development'
+          href: '/services/web-development'
         },
         {
           label: 'Mobile Development',
-          href: 'mobile-development'
+          href: '/services/mobile-development'
         },
         {
           label: 'Digital Marketing',

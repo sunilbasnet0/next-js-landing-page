@@ -27,7 +27,6 @@ const page = () => {
   };
 
 
-  console.log(activeTab)
   return (
     <main className='pt-[2rem] pb-[3rem] relative'>
       <div className='wrapper absolute top-0 right-0 z-0' draggable='false'>
