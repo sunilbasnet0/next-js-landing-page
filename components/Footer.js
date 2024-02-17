@@ -7,7 +7,6 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { IoIosArrowUp } from "react-icons/io";
-import Chatbox from './Chatbox';
 
 const Footer = () => {
 

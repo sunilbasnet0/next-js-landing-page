@@ -11,15 +11,15 @@ const Navbar = () => {
       dropdownItems: [
         {
           label: 'Blockchain Development',
-          href: '/blockchainDevelopment'
+          href: 'blockchainDevelopment'
         },
         {
           label: 'Web Development',
-          href: 'webDevelopment'
+          href: 'services/web-development'
         },
         {
           label: 'Mobile Development',
-          href: 'MobileDevelopment'
+          href: 'mobile-development'
         },
         {
           label: 'Digital Marketing',
