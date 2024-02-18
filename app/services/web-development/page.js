@@ -381,7 +381,7 @@ const page = () => {
             <div>
               {
                 activeTab === true ?
-                  (<div className="max-w-[990px] mx-auto min-h-[300px] mt-[3rem] flex flex-col sm:flex-row  py-[2rem] lg:py-[3rem] gap-[2rem] ">
+                  (<div className="max-w-[1190px] mx-auto min-h-[300px] mt-[3rem] flex flex-col sm:flex-row  py-[2rem] lg:py-[3rem] gap-[2rem] ">
                     <div className='flex justify-center items-center w-full'>
                       <img src='https://intglobal.net/uploads/logo-dr-reddys_s_f7c901cfe9.webp' className='w-[70%]' />
                     </div>
@@ -392,7 +392,7 @@ const page = () => {
                     </div>
                   </div>) : (
                     <>
-                      <div className="max-w-[990px] mx-auto min-h-[300px] mt-[3rem] flex flex-col sm:flex-row  py-[2rem] lg:py-[3rem] gap-[2rem] ">
+                      <div className="max-w-[1190px] mx-auto min-h-[300px] mt-[3rem] flex flex-col sm:flex-row  py-[2rem] lg:py-[3rem] gap-[2rem] ">
                         <div className='flex justify-center items-center w-full'>
                           <img src='https://intglobal.net/uploads/SBC-logo_37deab56d4.png' className='w-[70%]' />
                         </div>
