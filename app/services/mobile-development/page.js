@@ -64,7 +64,7 @@ const page = () => {
   return (
     <main className='lg:py-[7rem] py-[5rem] bg-[#131426]'>
       <section className='hero-section py-[3rem] min-h-[1000px]'>
-        <div className='max-w-[1290px] mx-auto'>
+        <div className='containers'>
           <div className='flex flex-col items-center justify-center'>
             <p className='bg-white px-[1.25rem] capitalize text-[1rem] font-bold border-[2px] border-[#000] py-[0.75rem] rounded-[2rem]'>Mobile Development</p>
             <h3 className='pt-[3rem] text-[1.75rem] sm:text-[2.75rem] text-white font-bold text-center max-w-[900px] mx-auto leading-[3rem] '>
@@ -96,7 +96,7 @@ const page = () => {
       </section>
 
       <section className='mt-[5rem] pb-[4rem] bg-[#131426]' id='project-approach'>
-        <div className='max-w-[1290px] mx-auto'>
+        <div className='containers'>
           <div className='text-center'>
             <h2 className='text-[2rem] text-white font-bold pt-[2rem]'>Project approaches</h2>
           </div>
@@ -137,7 +137,7 @@ const page = () => {
       </section>
 
       <section id='project-stage' className='py-[4rem]'>
-        <div className='max-w-[1290px] mx-auto'>
+        <div className='containers'>
           <div className='flex flex-col items-start gap-4 max-w-[600px] px-[1rem]'>
             <h2 className='text-[2rem] text-white font-bold pt-[2rem]'>Project Stages and Flow</h2>
             <p className='text-white text-sm text-normal'>Based on your current project stage, we will propose the most effective plan to achieve your objectives—within your timeframe and budget.</p>
