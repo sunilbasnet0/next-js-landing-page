@@ -37,6 +37,10 @@ const Navbar = () => {
           label: 'Creative Services',
           href: 'creativeDevelopment'
         },
+        {
+          label: 'Branding',
+          href: '/services/branding'
+        },
       ]
     },
     {
@@ -73,7 +77,7 @@ const Navbar = () => {
       dropdownItems: [
         {
           label: 'About Us',
-          href: 'about-us'
+          href: '/about-us'
         },
         {
           label: 'Team',

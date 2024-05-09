@@ -1,0 +1,25 @@
+/* image slider css  */
+
+.brand-image-slider {
+  position: relative;
+  padding-block: 4rem;
+}
+
+.brand-image-slider>.swiper-wrapper>.swiper-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-image-slider>.swiper-button-prev {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 98%;
+  left: 60%;
+  width: 30px;
+}
+
+.brand-image-slider>.swiper-button-prev::after {
+  font-size: 1rem;
+}
